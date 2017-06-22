@@ -1,0 +1,15 @@
+Créer une application permettant:
+-d'enregistrer des proverbes dans une base de données
+-de supprimer un proverbe
+-d'afficher un proverbe par requete ajax depuis une page client
+
+Structure d'un proverbe:
+-id, integer
+-auteur, varchar
+-corps, text
+-catégorie, varchar
+
+Créer une page client (index.php), contenant un bouton 'Charger un proverbe'.
+Au clic sur le bouton, un proverbe sera chargé par requête ajax et affiché dans le DOM.
+
+Echéance: 30 juin
